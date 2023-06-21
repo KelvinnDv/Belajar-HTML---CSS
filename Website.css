@@ -1,0 +1,151 @@
+body {
+    line-height: 1;
+}
+
+ol ul {
+    list-style: none;
+}
+
+blockquote,q {
+    quotes: none
+}
+
+/* blockquote:before, blockquote:after, q:before , q:after: {
+    content : none ;
+    content : '' ;
+}
+ */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*style*/
+
+body {
+    font : 16px/28px ,arial,sans-serif;
+    background-color: lightseagreen;
+    color : #333
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: greenyellow ch;
+    border-bottom: 3px solid blue;
+
+}
+
+.container {
+    width: 960px;
+    margin : auto ;
+    background-color: white;
+}
+
+.header {
+    padding : 20px;
+}
+
+.header.judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display : inline-block ;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: lightseagreen;
+    padding: 3px;
+}
+
+header a :hover{
+    background-color: blue ;
+    color: white ;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content.penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+
+.content.penulis a {
+    color : salmon;
+    text-decoration : none ;
+}
+
+
+
+
+.content p {
+    margin-bottom: 20px;
+    font-size:14px ;
+}
+
+
+h1 {
+    color: greenyellow;
+}
+
+h2 {
+    color: blue;
+}
+
+.footer {
+    background-color: rgb(1, 8, 14);
+}
+
+.footer .copy {
+    color: white;
+    font-size: 15px;
+    margin: auto; 
+    text-align: center; 
+    margin: auto;  
+}
+
+.content img {
+    width: 440px;
+    float: right;
+    height: auto;
+
+}
+
+ .sidebar p {
+    padding:  10px;
+    text-align: justify;
+}
